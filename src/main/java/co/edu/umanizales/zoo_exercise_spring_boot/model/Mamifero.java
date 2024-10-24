@@ -2,7 +2,7 @@ package co.edu.umanizales.zoo_exercise_spring_boot.model;
 
 
 public class Mamifero extends Animal {
-    private int periodoGestacion; // en meses
+    private int periodoGestacion; 
 
     public Mamifero(String nombre, int edad, String especie, int periodoGestacion) {
         super(nombre, edad, especie);
